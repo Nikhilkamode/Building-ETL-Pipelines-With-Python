@@ -1,0 +1,81 @@
+ETL- Extract Load Transform
+
+Python data structures:
+
+ List: holds heterogeneous and homogeneous type of data, can be separated using comma(,). it is ordered and the mutable
+list is denoted by[]. It starts from -1. The index of the first item is 0
+
+Example: sample_list=[1,"Nikhil","Akanksha","Sejal",[1,8]]
+print (sample_list[0]) #1
+print(sample_list[-1]) #[1,8]
+print(sample_list[1:4]) #["Nikhil","Akanksha","Sejal"]
+print(sample_list[:4]) #1,["Nikhil","Akanksha","Sejal"]
+print(sample_list[3:]) #"Sejal,[1,8]
+
+Dictionary:represented using key-value comma -separated pairs inside curly braces. The main purpose is to store value with some key and return value for the key when needed.
+for example:
+sample_dict={"Nikhil","Akanksha","Sejal",
+
+
+
+Tuple
+It is an ordered collection of elements
+difference between list and tuple is tuples are immutable while lists aren't
+Tuples are represented by parentheses or round brackets:
+sample_tuple=(1,"2",nk")
+print(sample_tuple=[1]) #2
+
+
+Sets
+Sets are represented using curly braces
+sample_set={5,9}
+sample_set.add(4)
+print(sample_set) #{5,9,4}
+sample_set.remove(9)
+print(sample_set) #{5,4}
+
+Python Functions
+Ex- def div_of numbers(num1,num2):
+/*This function returns the division of num1 by num2 */
+/*This function takes 2 parameters namely num1 and num2.
+if num2==0:
+# Below is a return statement.
+return'num2 is zero.'
+else:
+#Below is another return statement.
+return num1/num2
+#This is how python function is called.
+
+Object-oriented programming with Python
+Class
+
+Class DataPipeline() :
+first_tool="AirFlow"
+
+Creation of instance
+datapipeline=DataPipeline()
+
+Inheritance
+#parent class
+class DataPipelineBook:
+def_init_(self):
+print("I Will get job in Google")
+self.job_opening=18
+def what_is_this(self):
+print("job")
+def job(self):
+return self.job_opening
+
+The _init_  method in python classes that is called when an object is created from a class
+The what_is_this method is a regular method that is defined within class
+
+Working with files in Python
+1) Open: To read or write to a file ,you first need to open it.
+f=open("yellowtaxidata.txt")
+
+Read,write or append
+f=open("test_file.txt","r") #This file is opened in read mode
+f=open("test_file.txt","w") #This file is opened in write mode
+f=open("test_file.txt","a") #This file is opened in append mode
+
+for close we can use f.close
