@@ -1,0 +1,43 @@
+1.What is an ETL process?
+ETL is the process of Extraction, Transformation, and Loading.
+
+2.How many steps are there in an ETL process?
+3
+
+3.What are the steps involved in an ETL process?
+The steps involved are defining the source and the target, creating the mapping, creating the session, and creating the workflow.
+
+Extract:
+Connect to the data source
+Retrieve data based on specific criteria or filters
+Handle data extraction errors or exceptions
+
+Transform:
+Filtering
+Cleansing
+Validating
+
+Load:
+Create or configure the destination database or data warehouse
+Define the schema or structure of the target data tables
+Handle data loading errors or conflicts
+Optimize the loading process for performance and efficiency
+
+4.What is meant by incremental load?
+Incremental load refers to applying dynamic changes as and when required in a specific period and predefined schedules.
+
+5.What are the different types of loads in ETL?
+Incremental loads come in two flavors that vary based on the volume of data you're loading:
+Streaming incremental load – better for loading small data volumes.
+Batch incremental load – better for loading large data volumes.
+
+6. Which ETL tool is used most?
+Fivetran.
+Talend.
+Hevo Data.
+Skyvia.
+SAS Data Management.
+Pentaho.
+Stitch.
+Blendo.
+Apache Spark
